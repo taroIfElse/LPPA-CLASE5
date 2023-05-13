@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(151, 145, 145);
+}
+
+.flex-container{
+    border: 1px solid #645a5a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.noticia{
+  border: 1px solid #645a5a; 
+  background-color: rgb(255, 255, 255); 
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+.noticia img{
+    width:200px;
+    height:120px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 2px;
+    text-align: center;
+}
